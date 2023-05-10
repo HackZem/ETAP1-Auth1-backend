@@ -1,0 +1,17 @@
+{
+  "ts-node": {
+    "esm": true,
+    "experimentalSpecifierResolution": "node"
+  },
+  "compilerOptions": {
+    // other compiler options...
+    "esModuleInterop": true,
+    "module": "ESNext", // "module": "CommonJS" should work too
+    "moduleResolution": "Node",
+    "allowImportingTsExtensions": true,
+    "noEmit": true,
+    "incremental": true,
+  },
+  "include": ["/**/*.ts"],
+  "exclude": ["node_modules"],
+}
